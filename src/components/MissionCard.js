@@ -3,6 +3,7 @@ import propTypes from 'prop-types';
 
 class MissionCard extends React.Component{
   render(){
+    
     const { name, year, country, destination } = this.props;
     return(
       <div className="list">
